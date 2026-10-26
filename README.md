@@ -24,7 +24,7 @@ Open http://localhost:8000.
 - Light and dark themes with a saved preference.
 - Project category filters and detailed case-study dialogs.
 - Recruiter summary with a print action.
-- Downloadable résumé and professional contact links.
+- Downloadable professional profile and contact links.
 - Keyboard navigation, accessible labels, and reduced-motion styles.
 
 ## Files
@@ -35,12 +35,11 @@ Open http://localhost:8000.
 | `styles.css` | Layout, themes, responsive rules, and print styles |
 | `app.js` | Case studies, filtering, dialogs, theme, and navigation controls |
 | `assets/favicon.svg` | Site icon |
-| `assets/Aishwarya_Ghatapanadi_Resume.pdf` | Downloadable résumé |
 | `netlify.toml` | Static hosting configuration |
 
 ## Updating the portfolio
 
-Edit page content in `index.html`, project case studies in the `projects` object in `app.js`, and presentation in `styles.css`. Replace the résumé PDF at its existing path to update all download links.
+Edit page content in `index.html`, project case studies in the `projects` object in `app.js`, and presentation in `styles.css`. Replace the downloadable PDF in `assets/` at its existing path to update all download links.
 
 ## Deployment
 
@@ -52,4 +51,4 @@ Connect this repository to Netlify, select `main` as the production branch, leav
 node --check app.js
 ```
 
-Preview the site locally to check project filters, case-study dialogs, theme switching, navigation, résumé downloads, and the recruiter summary.
+Preview the site locally to check project filters, case-study dialogs, theme switching, navigation, PDF downloads, and the recruiter summary.
